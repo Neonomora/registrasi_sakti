@@ -1,0 +1,256 @@
+ERROR - 2025-11-21 23:14:20 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-11-21 23:14:50 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(52): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getKabupaten('11')
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(52): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getKabupaten('11')
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-11-21 23:15:06 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-11-21 23:19:27 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-11-21 23:21:15 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-11-21 23:21:31 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(52): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getKabupaten('15')
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(52): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getKabupaten('15')
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-11-21 23:22:19 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(52): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getKabupaten('18')
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(52): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getKabupaten('18')
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+ERROR - 2025-11-21 23:22:21 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'reg_anggota', 3306, '', 0)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#9 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'reg_anggota' in C:\xampp\htdocs\registrasi_anggota\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\registrasi_anggota\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\registrasi_anggota\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\registrasi_anggota\system\BaseModel.php(677): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\registrasi_anggota\app\Controllers\Registrasi2.php(131): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(933): App\Controllers\Registrasi2->getDPD()
+#7 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi2))
+#8 C:\xampp\htdocs\registrasi_anggota\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\registrasi_anggota\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\xampp\htdocs\registrasi_anggota\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
