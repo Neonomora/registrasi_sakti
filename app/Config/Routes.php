@@ -5,13 +5,18 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-// $routes->get('/', 'Home::index');
+// Route default ke halaman login
+$routes->get('/', 'Auth::index');
 
-// Routes untuk Registrasi2
-$routes->get('registrasi2', 'Registrasi2::index');
-$routes->get('registrasi2/getKabupaten/(:segment)', 'Registrasi2::getKabupaten/$1');
-$routes->get('registrasi2/getKecamatan/(:segment)', 'Registrasi2::getKecamatan/$1');
-$routes->get('registrasi2/getDPD', 'Registrasi2::getDPD');
-$routes->get('registrasi2/getDPC/(:segment)', 'Registrasi2::getDPC/$1');
-$routes->post('registrasi2/simpan', 'Registrasi2::simpan');
-$routes->get('registrasi2/sukses', 'Registrasi2::sukses');
+// Proses login
+$routes->post('login', 'Auth::login');
+
+// Logout
+$routes->get('logout', 'Auth::logout');
+
+// Dashboard setelah login
+$routes->get('dashboard', 'Dashboard::index');
+
+$routes->get('registrasi/getKelasByProdi/(:any)', 'Registrasi::getKelasByProdi/$1');
+// Tambahkan juga untuk simpan
+$routes->post('registrasi/simpan', 'Registrasi::simpan');

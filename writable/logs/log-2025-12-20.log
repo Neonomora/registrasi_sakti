@@ -1,0 +1,54 @@
+CRITICAL - 2025-12-20 11:11:46 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: registrasi]
+in APPPATH\Views\registrasi_view.php on line 87.
+ 1 APPPATH\Views\registrasi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\Xampp82\\htdocs\\registrasi_sakti\\app\\Views\\registrasi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Xampp82\\htdocs\\registrasi_sakti\\app\\Views\\registrasi_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('registrasi_view', [], true)
+ 5 APPPATH\Controllers\Registrasi.php(33): view('registrasi_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-20 11:13:38 --> ErrorException: Undefined variable $prodi
+[Method: GET, Route: registrasi]
+in APPPATH\Views\registrasi_view.php on line 87.
+ 1 APPPATH\Views\registrasi_view.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prodi', 'C:\\Xampp82\\htdocs\\registrasi_sakti\\app\\Views\\registrasi_view.php', 87)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Xampp82\\htdocs\\registrasi_sakti\\app\\Views\\registrasi_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('registrasi_view', [], true)
+ 5 APPPATH\Controllers\Registrasi.php(33): view('registrasi_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-20 11:15:55 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: registrasi]
+in APPPATH\Views\registrasi_view.php on line 88.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('registrasi_view', [], true)
+ 4 APPPATH\Controllers\Registrasi.php(33): view('registrasi_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-12-20 11:15:57 --> Error: Cannot use object of type stdClass as array
+[Method: GET, Route: registrasi]
+in APPPATH\Views\registrasi_view.php on line 88.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('registrasi_view', [], true)
+ 4 APPPATH\Controllers\Registrasi.php(33): view('registrasi_view', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Registrasi->index()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Registrasi))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
