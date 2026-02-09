@@ -16,6 +16,8 @@ $routes->get('logout', 'Auth::logout');
 
 // Dashboard setelah login
 $routes->get('dashboard', 'Dashboard::index');
+$routes->get('dashboard/getByNik/(:num)', 'Dashboard::getByNik/$1');
+$routes->post('dashboard/update', 'Dashboard::update');
 
 $routes->get('registrasi/getKelasByProdi/(:any)', 'Registrasi::getKelasByProdi/$1');
 // Tambahkan juga untuk simpan

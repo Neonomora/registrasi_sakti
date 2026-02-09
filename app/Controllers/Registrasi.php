@@ -34,7 +34,7 @@ class Registrasi extends BaseController
 
         echo view('template/header');
         echo view('registrasi_view', $data); 
-        echo view('template/footer');
+        // echo view('template/footer');
     }
 
     public function getKelasByProdi($prodi_id = null)

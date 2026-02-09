@@ -19,7 +19,8 @@ class PendaftarModel extends Model
     'kampus',
     'beasiswa',
     'kelas_id',
-    'referensi_id'
+    'referensi_id',
+    'status'
   ];
 
   protected $useTimestamps    = false;
@@ -31,5 +32,18 @@ class PendaftarModel extends Model
       ->join('program_studi', 'program_studi.program_studi_id = kelas.program_studi_id')
       ->join('referensi_informasi', 'referensi_informasi.referensi_id = calon_pendaftar.referensi_id', 'left')
       ->findAll();
+  }
+
+  /**
+   * Ambil satu calon pendaftar berdasarkan NIK (untuk form edit).
+   */
+  public function getByNik(string $nik)
+  {
+    return $this->select('calon_pendaftar.*, kelas.nama_kelas, kelas.program_studi_id, program_studi.nama_program_studi, referensi_informasi.nama_referensi')
+      ->join('kelas', 'kelas.kelas_id = calon_pendaftar.kelas_id')
+      ->join('program_studi', 'program_studi.program_studi_id = kelas.program_studi_id')
+      ->join('referensi_informasi', 'referensi_informasi.referensi_id = calon_pendaftar.referensi_id', 'left')
+      ->where('calon_pendaftar.nik', $nik)
+      ->first();
   }
 }

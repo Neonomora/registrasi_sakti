@@ -71,144 +71,10 @@
                 <i class="bi bi-list"></i>
               </a>
             </li>
-            <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Home</a></li>
-            <li class="nav-item d-none d-md-block"><a href="#" class="nav-link">Contact</a></li>
           </ul>
           <!--end::Start Navbar Links-->
           <!--begin::End Navbar Links-->
           <ul class="navbar-nav ms-auto">
-            <!--begin::Navbar Search-->
-            <li class="nav-item">
-              <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-                <i class="bi bi-search"></i>
-              </a>
-            </li>
-            <!--end::Navbar Search-->
-            <!--begin::Messages Dropdown Menu-->
-            <li class="nav-item dropdown">
-              <a class="nav-link" data-bs-toggle="dropdown" href="#">
-                <i class="bi bi-chat-text"></i>
-                <span class="navbar-badge badge text-bg-danger">3</span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                <a href="#" class="dropdown-item">
-                  <!--begin::Message-->
-                  <div class="d-flex">
-                    <div class="flex-shrink-0">
-                      <img
-                        src="<?= base_url('adminlte/dist/'); ?>assets/img/user1-128x128.jpg"
-                        alt="User Avatar"
-                        class="img-size-50 rounded-circle me-3"
-                      />
-                    </div>
-                    <div class="flex-grow-1">
-                      <h3 class="dropdown-item-title">
-                        Brad Diesel
-                        <span class="float-end fs-7 text-danger"
-                          ><i class="bi bi-star-fill"></i
-                        ></span>
-                      </h3>
-                      <p class="fs-7">Call me whenever you can...</p>
-                      <p class="fs-7 text-secondary">
-                        <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
-                      </p>
-                    </div>
-                  </div>
-                  <!--end::Message-->
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">
-                  <!--begin::Message-->
-                  <div class="d-flex">
-                    <div class="flex-shrink-0">
-                      <img
-                        src="<?= base_url('adminlte/dist/'); ?>assets/img/user8-128x128.jpg"
-                        alt="User Avatar"
-                        class="img-size-50 rounded-circle me-3"
-                      />
-                    </div>
-                    <div class="flex-grow-1">
-                      <h3 class="dropdown-item-title">
-                        John Pierce
-                        <span class="float-end fs-7 text-secondary">
-                          <i class="bi bi-star-fill"></i>
-                        </span>
-                      </h3>
-                      <p class="fs-7">I got your message bro</p>
-                      <p class="fs-7 text-secondary">
-                        <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
-                      </p>
-                    </div>
-                  </div>
-                  <!--end::Message-->
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">
-                  <!--begin::Message-->
-                  <div class="d-flex">
-                    <div class="flex-shrink-0">
-                      <img
-                        src="<?= base_url('adminlte/dist/'); ?>assets/img/user3-128x128.jpg"
-                        alt="User Avatar"
-                        class="img-size-50 rounded-circle me-3"
-                      />
-                    </div>
-                    <div class="flex-grow-1">
-                      <h3 class="dropdown-item-title">
-                        Nora Silvester
-                        <span class="float-end fs-7 text-warning">
-                          <i class="bi bi-star-fill"></i>
-                        </span>
-                      </h3>
-                      <p class="fs-7">The subject goes here</p>
-                      <p class="fs-7 text-secondary">
-                        <i class="bi bi-clock-fill me-1"></i> 4 Hours Ago
-                      </p>
-                    </div>
-                  </div>
-                  <!--end::Message-->
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
-              </div>
-            </li>
-            <!--end::Messages Dropdown Menu-->
-            <!--begin::Notifications Dropdown Menu-->
-            <li class="nav-item dropdown">
-              <a class="nav-link" data-bs-toggle="dropdown" href="#">
-                <i class="bi bi-bell-fill"></i>
-                <span class="navbar-badge badge text-bg-warning">15</span>
-              </a>
-              <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                <span class="dropdown-item dropdown-header">15 Notifications</span>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">
-                  <i class="bi bi-envelope me-2"></i> 4 new messages
-                  <span class="float-end text-secondary fs-7">3 mins</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">
-                  <i class="bi bi-people-fill me-2"></i> 8 friend requests
-                  <span class="float-end text-secondary fs-7">12 hours</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item">
-                  <i class="bi bi-file-earmark-fill me-2"></i> 3 new reports
-                  <span class="float-end text-secondary fs-7">2 days</span>
-                </a>
-                <div class="dropdown-divider"></div>
-                <a href="#" class="dropdown-item dropdown-footer"> See All Notifications </a>
-              </div>
-            </li>
-            <!--end::Notifications Dropdown Menu-->
-            <!--begin::Fullscreen Toggle-->
-            <li class="nav-item">
-              <a class="nav-link" href="#" data-lte-toggle="fullscreen">
-                <i data-lte-icon="maximize" class="bi bi-arrows-fullscreen"></i>
-                <i data-lte-icon="minimize" class="bi bi-fullscreen-exit" style="display: none"></i>
-              </a>
-            </li>
-            <!--end::Fullscreen Toggle-->
             <!--begin::User Menu Dropdown-->
             <li class="nav-item dropdown user-menu">
               <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
@@ -217,7 +83,7 @@
                   class="user-image rounded-circle shadow"
                   alt="User Image"
                 />
-                <span class="d-none d-md-inline">Alexander Pierce</span>
+                <span class="d-none d-md-inline"><?= esc(session('username') ?: 'Admin') ?></span>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                 <!--begin::User Image-->
@@ -228,26 +94,19 @@
                     alt="User Image"
                   />
                   <p>
-                    Alexander Pierce - Web Developer
-                    <small>Member since Nov. 2023</small>
+                    <?= esc(session('username') ?: 'Admin') ?>
+                    <small>Dashboard</small>
                   </p>
                 </li>
                 <!--end::User Image-->
                 <!--begin::Menu Body-->
-                <li class="user-body">
-                  <!--begin::Row-->
-                  <div class="row">
-                    <div class="col-4 text-center"><a href="#">Followers</a></div>
-                    <div class="col-4 text-center"><a href="#">Sales</a></div>
-                    <div class="col-4 text-center"><a href="#">Friends</a></div>
-                  </div>
-                  <!--end::Row-->
-                </li>
+                <!-- <li class="user-body">
+                </li> -->
                 <!--end::Menu Body-->
                 <!--begin::Menu Footer-->
                 <li class="user-footer">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                  <a href="#" class="btn btn-default btn-flat float-end">Sign out</a>
+                  <a href="<?= base_url('dashboard') ?>" class="btn btn-default btn-flat">Dashboard</a>
+                  <a href="<?= base_url('logout') ?>" class="btn btn-default btn-flat float-end text-danger">Logout</a>
                 </li>
                 <!--end::Menu Footer-->
               </ul>
@@ -295,430 +154,8 @@
                 <a href="#" class="nav-link">
                   <i class="nav-icon bi bi-speedometer"></i>
                   <p>
-                    Dashboard
-                    <i class="nav-arrow bi bi-chevron-right"></i>
+                    Calon Pendaftar
                   </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>index.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v1</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>index2.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>index3.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Dashboard v3</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>generate/theme.html" class="nav-link">
-                  <i class="nav-icon bi bi-palette"></i>
-                  <p>Theme Generate</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-box-seam-fill"></i>
-                  <p>
-                    Widgets
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>widgets/small-box.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Small Box</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>widgets/info-box.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>info Box</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>widgets/cards.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Cards</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item menu-open">
-                <a href="#" class="nav-link active">
-                  <i class="nav-icon bi bi-clipboard-fill"></i>
-                  <p>
-                    Layout Options
-                    <span class="nav-badge badge text-bg-secondary me-3">6</span>
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/unfixed-sidebar.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Default Sidebar</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/fixed-sidebar.html" class="nav-link active">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Fixed Sidebar</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/fixed-header.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Fixed Header</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/fixed-footer.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Fixed Footer</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/fixed-complete.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Fixed Complete</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/layout-custom-area.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Layout <small>+ Custom Area </small></p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/sidebar-mini.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Sidebar Mini</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/collapsed-sidebar.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Sidebar Mini <small>+ Collapsed</small></p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/logo-switch.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Sidebar Mini <small>+ Logo Switch</small></p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>layout/layout-rtl.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Layout RTL</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-tree-fill"></i>
-                  <p>
-                    UI Elements
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>UI/general.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>General</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>UI/icons.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Icons</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>UI/timeline.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Timeline</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-pencil-square"></i>
-                  <p>
-                    Forms
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>forms/general.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>General Elements</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-table"></i>
-                  <p>
-                    Tables
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>tables/simple.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Simple Tables</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-header">EXAMPLES</li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-box-arrow-in-right"></i>
-                  <p>
-                    Auth
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon bi bi-box-arrow-in-right"></i>
-                      <p>
-                        Version 1
-                        <i class="nav-arrow bi bi-chevron-right"></i>
-                      </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                      <li class="nav-item">
-                        <a href="<?= base_url('adminlte/dist/'); ?>examples/login.html" class="nav-link">
-                          <i class="nav-icon bi bi-circle"></i>
-                          <p>Login</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="<?= base_url('adminlte/dist/'); ?>examples/register.html" class="nav-link">
-                          <i class="nav-icon bi bi-circle"></i>
-                          <p>Register</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon bi bi-box-arrow-in-right"></i>
-                      <p>
-                        Version 2
-                        <i class="nav-arrow bi bi-chevron-right"></i>
-                      </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                      <li class="nav-item">
-                        <a href="<?= base_url('adminlte/dist/'); ?>examples/login-v2.html" class="nav-link">
-                          <i class="nav-icon bi bi-circle"></i>
-                          <p>Login</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="<?= base_url('adminlte/dist/'); ?>examples/register-v2.html" class="nav-link">
-                          <i class="nav-icon bi bi-circle"></i>
-                          <p>Register</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>examples/lockscreen.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Lockscreen</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-header">DOCUMENTATIONS</li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>docs/introduction.html" class="nav-link">
-                  <i class="nav-icon bi bi-download"></i>
-                  <p>Installation</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>docs/layout.html" class="nav-link">
-                  <i class="nav-icon bi bi-grip-horizontal"></i>
-                  <p>Layout</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>docs/color-mode.html" class="nav-link">
-                  <i class="nav-icon bi bi-star-half"></i>
-                  <p>Color Mode</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-ui-checks-grid"></i>
-                  <p>
-                    Components
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>docs/components/main-header.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Main Header</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>docs/components/main-sidebar.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Main Sidebar</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-filetype-js"></i>
-                  <p>
-                    Javascript
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="<?= base_url('adminlte/dist/'); ?>docs/javascript/treeview.html" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Treeview</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>docs/browser-support.html" class="nav-link">
-                  <i class="nav-icon bi bi-browser-edge"></i>
-                  <p>Browser Support</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>docs/how-to-contribute.html" class="nav-link">
-                  <i class="nav-icon bi bi-hand-thumbs-up-fill"></i>
-                  <p>How To Contribute</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>docs/faq.html" class="nav-link">
-                  <i class="nav-icon bi bi-question-circle-fill"></i>
-                  <p>FAQ</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="<?= base_url('adminlte/dist/'); ?>docs/license.html" class="nav-link">
-                  <i class="nav-icon bi bi-patch-check-fill"></i>
-                  <p>License</p>
-                </a>
-              </li>
-              <li class="nav-header">MULTI LEVEL EXAMPLE</li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle-fill"></i>
-                  <p>Level 1</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle-fill"></i>
-                  <p>
-                    Level 1
-                    <i class="nav-arrow bi bi-chevron-right"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Level 2</p>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>
-                        Level 2
-                        <i class="nav-arrow bi bi-chevron-right"></i>
-                      </p>
-                    </a>
-                    <ul class="nav nav-treeview">
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon bi bi-record-circle-fill"></i>
-                          <p>Level 3</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon bi bi-record-circle-fill"></i>
-                          <p>Level 3</p>
-                        </a>
-                      </li>
-                      <li class="nav-item">
-                        <a href="#" class="nav-link">
-                          <i class="nav-icon bi bi-record-circle-fill"></i>
-                          <p>Level 3</p>
-                        </a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link">
-                      <i class="nav-icon bi bi-circle"></i>
-                      <p>Level 2</p>
-                    </a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle-fill"></i>
-                  <p>Level 1</p>
-                </a>
-              </li>
-              <li class="nav-header">LABELS</li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle text-danger"></i>
-                  <p class="text">Important</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle text-warning"></i>
-                  <p>Warning</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">
-                  <i class="nav-icon bi bi-circle text-info"></i>
-                  <p>Informational</p>
                 </a>
               </li>
             </ul>
@@ -736,13 +173,12 @@
           <div class="container-fluid">
             <!--begin::Row-->
             <div class="row">
-              <div class="col-sm-6"><h3 class="mb-0">Fixed Layout</h3></div>
-              <div class="col-sm-6">
+              <div class="col-sm-6"><h3 class="mb-0 fw-bold">Pendaftar</h3></div>
+              <!-- <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-end">
-                  <li class="breadcrumb-item"><a href="#">Home</a></li>
                   <li class="breadcrumb-item active" aria-current="page">Fixed Layout</li>
                 </ol>
-              </div>
+              </div> -->
             </div>
             <!--end::Row-->
           </div>
@@ -753,13 +189,25 @@
         <div class="app-content">
           <!--begin::Container-->
           <div class="container-fluid">
+            <?php if (session('success')): ?>
+              <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <?= esc(session('success')) ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            <?php endif; ?>
+            <?php if (session('error')): ?>
+              <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <?= esc(session('error')) ?>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+              </div>
+            <?php endif; ?>
             <!--begin::Row-->
             <div class="row">
               <div class="col-12">
                 <!-- Default box -->
                 <div class="card">
                   <div class="card-header">
-                    <h3 class="card-title">Title</h3>
+                    <h3 class="card-title">Tabel Calon Pendaftar</h3>
                     <div class="card-tools">
                       <button
                         type="button"
@@ -778,12 +226,76 @@
                       >
                         <i class="bi bi-x-lg"></i>
                       </button>
+                      <button type="button" class="btn btn-tool" title="Refresh" onclick="window.location.reload()"><i class="bi bi-arrow-repeat"></i></button>
                     </div>
                   </div>
-                  <div class="card-body">Start creating your amazing application!</div>
+                  <!-- <div class="card-body">
+                  <div class="card mb-4">
+                  <div class="card-header">
+                    <h3 class="card-title">Simple Full Width Table</h3>
+                    <div class="card-tools">
+                      <ul class="pagination pagination-sm float-end">
+                        <li class="page-item"><a class="page-link" href="#">&laquo;</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">&raquo;</a></li>
+                      </ul>
+                    </div>
+                  </div> -->
+                  <!-- /.card-header -->
+                  <div class="card-body p-0">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>No</th>
+                          <th>NIK</th>
+                          <th>Nama Lengkap</th>
+                          <th>No Handphone</th>
+                          <th>Email</th>
+                          <th>Beasiswa</th>
+                          <th>Kelas</th>
+                          <th>Tanggal Pendaftaran</th>
+                          <th>Status</th>
+                          <th>Opsi</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <?php if (!empty($pendaftar)): ?>
+                          <?php foreach ($pendaftar as $no => $row): ?>
+                        <tr class="align-middle" data-nik="<?= esc($row['nik']) ?>">
+                          <td><?= $no + 1 ?></td>
+                          <td><?= esc($row['nik']) ?></td>
+                          <td><?= esc($row['nama_lengkap']) ?></td>
+                          <td><?= esc($row['no_handphone']) ?></td>
+                          <td><?= esc($row['email']) ?></td>
+                          <td><?= esc($row['beasiswa']) ?></td>
+                          <td><?= esc($row['nama_kelas'] ?? '-') ?></td>
+                          <td><?= isset($row['created_at']) ? date('d/m/Y', strtotime($row['created_at'])) : '-' ?></td>
+                          <td>
+                            <select class="form-select form-select-sm status-select" data-nik="<?= esc($row['nik']) ?>" aria-label="Status">
+                              <option value="" <?= empty($row['status']) ? 'selected' : '' ?>>-- Pilih --</option>
+                              <option value="diterima" <?= isset($row['status']) && $row['status'] === 'diterima' ? 'selected' : '' ?>>Diterima</option>
+                              <option value="ditolak" <?= isset($row['status']) && $row['status'] === 'ditolak' ? 'selected' : '' ?>>Ditolak</option>
+                            </select>
+                          </td>
+                          <td>
+                            <div class="btn-group btn-group-sm">
+                              <button type="button" class="btn btn-info btn-edit" title="Edit" data-nik="<?= esc($row['nik']) ?>"><i class="bi bi-pencil"></i></button>
+                              <button type="button" class="btn btn-danger" title="Hapus"><i class="bi bi-trash"></i></button>
+                            </div>
+                          </td>
+                        </tr>
+                          <?php endforeach; ?>
+                        <?php else: ?>
+                        <tr>
+                          <td colspan="10" class="text-center py-4 text-muted">Belum ada data pendaftar.</td>
+                        </tr>
+                        <?php endif; ?>
+                      </tbody>
+                    </table>
+                  </div>
                   <!-- /.card-body -->
-                  <div class="card-footer">Footer</div>
-                  <!-- /.card-footer-->
                 </div>
                 <!-- /.card -->
               </div>
@@ -795,6 +307,97 @@
         <!--end::App Content-->
       </main>
       <!--end::App Main-->
+
+      <!-- Modal Edit -->
+      <div class="modal fade" id="modalEdit" tabindex="-1" aria-labelledby="modalEditLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalEditLabel">Edit Calon Pendaftar</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div id="editModalError" class="alert alert-danger d-none" role="alert"></div>
+              <form id="formEditPendaftar">
+                <?= csrf_field() ?>
+                <input type="hidden" name="nik" id="edit_nik" />
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label class="form-label">NIK</label>
+                      <input type="text" class="form-control bg-secondary" id="edit_nik_display" readonly disabled />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Nama Lengkap <span class="text-danger">*</span></label>
+                      <input type="text" name="nama_lengkap" id="edit_nama_lengkap" class="form-control" required maxlength="100" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">No. Handphone <span class="text-danger">*</span></label>
+                      <input type="text" name="no_handphone" id="edit_no_handphone" class="form-control" required maxlength="15" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Email <span class="text-danger">*</span></label>
+                      <input type="email" name="email" id="edit_email" class="form-control" required maxlength="100" />
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Kampus <span class="text-danger">*</span></label>
+                      <select name="kampus" id="edit_kampus" class="form-select" required>
+                        <option value="1">Cicurug</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3">
+                      <label class="form-label">Program Studi <span class="text-danger">*</span></label>
+                      <select name="prodi_id" id="edit_prodi_id" class="form-select" required>
+                        <option value="">Pilih Program Studi</option>
+                        <?php if (!empty($prodi)): foreach ($prodi as $p): ?>
+                          <option value="<?= (int) $p['program_studi_id'] ?>"><?= esc($p['nama_program_studi']) ?></option>
+                        <?php endforeach; endif; ?>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Kelas <span class="text-danger">*</span></label>
+                      <select name="kelas_id" id="edit_kelas_id" class="form-select" required>
+                        <option value="">Pilih Kelas</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Beasiswa <span class="text-danger">*</span></label>
+                      <select name="beasiswa" id="edit_beasiswa" class="form-select" required>
+                        <option value="TIDAK">TIDAK</option>
+                        <option value="YA">YA</option>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Referensi Informasi</label>
+                      <select name="referensi_id" id="edit_referensi_id" class="form-select">
+                        <option value="">Pilih Referensi</option>
+                        <?php if (!empty($referensi)): foreach ($referensi as $r): ?>
+                          <option value="<?= (int) $r['referensi_id'] ?>"><?= esc($r['nama_referensi']) ?></option>
+                        <?php endforeach; endif; ?>
+                      </select>
+                    </div>
+                    <div class="mb-3">
+                      <label class="form-label">Status</label>
+                      <select name="status" id="edit_status" class="form-select">
+                        <option value="">-- Pilih --</option>
+                        <option value="diterima">Diterima</option>
+                        <option value="ditolak">Ditolak</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+              <button type="button" class="btn btn-primary" id="btnSimpanEdit"><i class="bi bi-check-lg me-1"></i> Simpan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!--begin::Footer-->
       <footer class="app-footer">
         <!--begin::To the end-->
@@ -851,6 +454,136 @@
       });
     </script>
     <!--end::OverlayScrollbars Configure-->
+    <script>
+      (function () {
+        var baseUrl = '<?= base_url() ?>';
+        var modalEl = document.getElementById('modalEdit');
+        var modal = modalEl ? new bootstrap.Modal(modalEl) : null;
+        var form = document.getElementById('formEditPendaftar');
+        var editError = document.getElementById('editModalError');
+        var btnSimpan = document.getElementById('btnSimpanEdit');
+
+        function showEditError(msg) {
+          if (!editError) return;
+          editError.textContent = msg || '';
+          editError.classList.toggle('d-none', !msg);
+        }
+
+        function loadKelas(prodiId, selectedKelasId, done) {
+          var sel = document.getElementById('edit_kelas_id');
+          if (!sel) { if (done) done(); return; }
+          sel.innerHTML = '<option value="">Loading...</option>';
+          if (!prodiId) {
+            sel.innerHTML = '<option value="">Pilih Kelas</option>';
+            if (done) done();
+            return;
+          }
+          fetch(baseUrl + 'registrasi/getKelasByProdi/' + prodiId)
+            .then(function (r) { return r.json(); })
+            .then(function (res) {
+              sel.innerHTML = '<option value="">Pilih Kelas</option>';
+              if (res.success && res.data && res.data.length) {
+                res.data.forEach(function (item) {
+                  var opt = document.createElement('option');
+                  opt.value = item.kelas_id;
+                  opt.textContent = item.nama_kelas;
+                  if (String(item.kelas_id) === String(selectedKelasId)) opt.selected = true;
+                  sel.appendChild(opt);
+                });
+              }
+              if (done) done();
+            })
+            .catch(function () {
+              sel.innerHTML = '<option value="">Gagal memuat</option>';
+              if (done) done();
+            });
+        }
+
+        function openEditModal(nik) {
+          showEditError('');
+          fetch(baseUrl + 'dashboard/getByNik/' + nik)
+            .then(function (r) { return r.json(); })
+            .then(function (res) {
+              if (!res.success || !res.data) {
+                showEditError(res.message || 'Data tidak ditemukan');
+                return;
+              }
+              var d = res.data;
+              document.getElementById('edit_nik').value = d.nik;
+              document.getElementById('edit_nik_display').value = d.nik;
+              document.getElementById('edit_nama_lengkap').value = d.nama_lengkap || '';
+              document.getElementById('edit_no_handphone').value = d.no_handphone || '';
+              document.getElementById('edit_email').value = d.email || '';
+              document.getElementById('edit_kampus').value = d.kampus || '1';
+              document.getElementById('edit_prodi_id').value = d.program_studi_id || '';
+              document.getElementById('edit_beasiswa').value = d.beasiswa || 'TIDAK';
+              document.getElementById('edit_referensi_id').value = d.referensi_id || '';
+              document.getElementById('edit_status').value = d.status || '';
+              loadKelas(d.program_studi_id, d.kelas_id, function () {
+                document.getElementById('edit_kelas_id').value = d.kelas_id || '';
+                if (modal) modal.show();
+              });
+            })
+            .catch(function () {
+              showEditError('Gagal memuat data.');
+            });
+        }
+
+        document.getElementById('edit_prodi_id').addEventListener('change', function () {
+          loadKelas(this.value, null);
+        });
+
+        if (btnSimpan) {
+          btnSimpan.addEventListener('click', function () {
+            if (!form || !form.checkValidity()) {
+              form.reportValidity();
+              return;
+            }
+            showEditError('');
+            btnSimpan.disabled = true;
+            var fd = new FormData(form);
+            fetch(baseUrl + 'dashboard/update', {
+              method: 'POST',
+              body: fd,
+              headers: { 'X-Requested-With': 'XMLHttpRequest' }
+            })
+              .then(function (r) { return r.json(); })
+              .then(function (res) {
+                btnSimpan.disabled = false;
+                if (res.success && res.data) {
+                  var row = document.querySelector('tr[data-nik="' + res.data.nik + '"]');
+                  if (row) {
+                    var cells = row.querySelectorAll('td');
+                    if (cells.length >= 9) {
+                      cells[2].textContent = res.data.nama_lengkap || '';
+                      cells[3].textContent = res.data.no_handphone || '';
+                      cells[4].textContent = res.data.email || '';
+                      cells[5].textContent = res.data.beasiswa || '';
+                      cells[6].textContent = res.data.nama_kelas || '-';
+                      var statusSel = row.querySelector('.status-select');
+                      if (statusSel) statusSel.value = res.data.status || '';
+                    }
+                  }
+                  if (modal) modal.hide();
+                } else {
+                  showEditError(res.message || (res.errors ? Object.values(res.errors).join(' ') : 'Gagal menyimpan'));
+                }
+              })
+              .catch(function () {
+                btnSimpan.disabled = false;
+                showEditError('Gagal menyimpan. Coba lagi.');
+              });
+          });
+        }
+
+        document.querySelectorAll('.btn-edit').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            var nik = this.getAttribute('data-nik');
+            if (nik) openEditModal(nik);
+          });
+        });
+      })();
+    </script>
     <!--end::Script-->
   </body>
   <!--end::Body-->
