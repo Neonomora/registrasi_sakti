@@ -282,7 +282,13 @@
                           <td>
                             <div class="btn-group btn-group-sm">
                               <button type="button" class="btn btn-info btn-edit" title="Edit" data-nik="<?= esc($row['nik']) ?>"><i class="bi bi-pencil"></i></button>
-                              <button type="button" class="btn btn-danger" title="Hapus"><i class="bi bi-trash"></i></button>
+                              <form action="<?= base_url('dashboard/delete') ?>" method="post" class="d-inline" onsubmit="return confirm('Yakin ingin menghapus data ini?');">
+                                <?= csrf_field() ?>
+                                <input type="hidden" name="nik" value="<?= esc($row['nik']) ?>">
+                                <button type="submit" class="btn btn-danger" title="Hapus">
+                                  <i class="bi bi-trash"></i>
+                                </button>
+                              </form>
                             </div>
                           </td>
                         </tr>

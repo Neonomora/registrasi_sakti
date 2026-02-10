@@ -122,4 +122,30 @@ class Dashboard extends BaseController
 
         return redirect()->to(base_url('dashboard'))->with('success', 'Data calon pendaftar berhasil diperbarui.');
     }
+
+    /**
+     * Hapus satu data calon pendaftar berdasarkan NIK.
+     */
+    public function delete()
+    {
+        if (!session()->get('logged_in')) {
+            return redirect()->to(base_url('/'));
+        }
+
+        $nik = $this->request->getPost('nik');
+        if (empty($nik)) {
+            return redirect()->to(base_url('dashboard'))->with('error', 'NIK tidak valid.');
+        }
+
+        $item = $this->pendaftarModel->find($nik);
+        if (!$item) {
+            return redirect()->to(base_url('dashboard'))->with('error', 'Data calon pendaftar tidak ditemukan.');
+        }
+
+        if (!$this->pendaftarModel->delete($nik)) {
+            return redirect()->to(base_url('dashboard'))->with('error', 'Gagal menghapus data calon pendaftar.');
+        }
+
+        return redirect()->to(base_url('dashboard'))->with('success', 'Data calon pendaftar berhasil dihapus.');
+    }
 }
